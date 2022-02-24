@@ -13,5 +13,3 @@ c0 = C[word_to_id['you']]  # "you"의 단어 벡터
 c1 = C[word_to_id['i']]    # "i"의 단어 벡터
 print(cos_similarity(c0, c1))
 
-
-print()
